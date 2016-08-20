@@ -16,6 +16,6 @@ Rémi vous a expliqué comment afficher du texte à l'écran et notamment commen
 Attention en tant que développeur C, vous allez devoir respecter certaines règles ! Vous devez respecter strictement ce qui est dans l’encadré !  
 
 
-[voici le code](afficher_text1.c)  
+[voici le code](<script src="https://gist.github.com/phinpharin/8ad9b23b2aa77f5e26c10ebe000005e3.js"></script>)  
 
 
