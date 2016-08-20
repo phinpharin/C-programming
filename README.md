@@ -93,7 +93,8 @@ Vous voulez afficher plusieurs fois la même chose, mais vous ne voulez pas l'é
 Nous vous demandons d'écrire le texte suivant :
 
 
-```Le C, c'est la vie !
+```
+Le C, c'est la vie !
 Le C, c'est la vie !
 Le C, c'est la vie !
 ```			
