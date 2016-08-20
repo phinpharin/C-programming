@@ -60,4 +60,29 @@ int main() {
     return 0;
 }
 ```
+**Votre mission**
 
+Youpi ! Vous êtes devenu-e maître des caractères spéciaux. Vous savez donc les insérer dans votre code. Mais savez-vous vraiment les utiliser ? Faisons-en votre spécialité. Nous avons déjà évoqué dans une vidéo précédente la fameuse phrase de Dennis Ritchie, mais elle n'a pas encore suffisamment été mise en valeur dans ce cours. C'est l'heure de remédier à cet oubli et de rendre hommage à cet homme !
+
+Votre but est d'utiliser ces caractères dans votre code, mais en tant que développeur-se C, vous allez devoir les utiliser correctement. Vous ne voulez pas salir la mémoire de ce grand homme !
+
+Nous vous demandons d'afficher le texte suivant :
+```
+Dennis Ritchie a dit un jour : 
+"La meilleure façon d'apprendre à programmer, c'est de programmer."
+```
+Mais ce serait trop facile comme ça ! Vous n'avez droit ici qu'à un seul printf.
+
+Attention ! Vous devez respecter strictement ce qui est écrit au dessus ! 
+
+**afficher_text1.c**  
+[code](./afficher_text2.c)
+```c
+ #include <stdio.h>
+
+int main() {
+    printf ("Dennis Ritchie a dit un jour :\n\"La meilleure façon d'apprendre à programmer, c'est de programmer.\"");
+    return 0;
+}
+}  
+```
