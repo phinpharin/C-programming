@@ -17,18 +17,15 @@ Attention en tant que développeur C, vous allez devoir respecter certaines règ
 
 
 **afficher_text1.c**  
-
-
-
-    
-    #include <stdio.h>
+[code](./afficher_text1.c)
+```javascript
+ #include <stdio.h>
     int main() {
-    printf ("A ce stade, je sais :\n- Afficher du texte\n- Sauter des lignes\n- Corriger des erreurs");
-    return 0;
+      printf ("A ce stade, je sais :\n- Afficher du texte\n- Sauter des lignes\n- Corriger des erreurs");
+      return 0;
 }  
-
-
-   
+```
+ok
 
 
 
