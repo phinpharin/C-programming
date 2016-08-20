@@ -16,6 +16,7 @@ Rémi vous a expliqué comment afficher du texte à l'écran et notamment commen
 Attention en tant que développeur C, vous allez devoir respecter certaines règles ! Vous devez respecter strictement ce qui est dans l’encadré !  
 
 
-[voici le code](./afficher_text.c)  
+**afficher_text.c**  
+
 
 
