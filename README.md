@@ -83,6 +83,145 @@ Attention ! Vous devez respecter strictement ce qui est écrit au dessus !
 int main() {
     printf ("Dennis Ritchie a dit un jour :\n\"La meilleure façon d'apprendre à programmer, c'est de programmer.\"");
     return 0;
-}
+
 }  
 ```
+**Votre mission**
+
+Vous voulez afficher plusieurs fois la même chose, mais vous ne voulez pas l'écrire plusieurs fois dans le code ? Bravo !
+
+Nous vous demandons d'écrire le texte suivant :
+
+
+```Le C, c'est la vie !
+Le C, c'est la vie !
+Le C, c'est la vie !
+```			
+
+Simple n'est-ce pas ? Alors maintenant rajoutons de la difficulté ! Vous n'avez le droit qu'à un seul "printf", et aucune répétition dans les "printf" !
+
+Attention ! Vous devez respecter strictement ce qui est écrit au dessus ! 
+
+
+**loop1.c**
+[code](./loop1.c)
+
+```c
+ #include <stdio.h>
+
+int main() {
+	for(int i=1;i<=3;i++)
+    printf ("Le C, c'est la vie !\n");
+    return 0;
+}
+```
+**Votre mission**
+
+Vous voulez afficher plusieurs fois la même chose, mais vous ne voulez pas l'écrire plusieurs fois dans le code ? D'accord c'est possible !
+
+Nous vous demandons d'écrire le texte suivant :
+```
+Le C, c'est la vie !
+Le C, c'est la vie !
+Le C, c'est la vie !
+
+On peut tout faire avec !
+On peut tout faire avec !
+On peut tout faire avec !
+On peut tout faire avec !
+On peut tout faire avec !
+```			
+
+Simple n'est-ce pas ? Alors maintenant rajoutons de la difficulté ! Vous n'avez le droit qu'à trois "printf", et aucune répétition dans les "printf" !
+
+Attention ! Vous devez respecter strictement ce qui est écrit au dessus !
+
+**loop2.c**
+[code](./loop2.c)
+
+```c
+ #include <stdio.h>
+
+int main() {
+	for(int i=1;i<=3;i++)
+	{
+		printf ("Le C, c'est la vie !\n");
+	}
+	printf("\n");
+	for(int i=1;i<=5;i++)
+	{
+		printf ("On peut tout faire avec !\n");
+	}
+
+    return 0;
+}
+```
+**Votre mission**
+
+Notre développeur a écrit un programme, mais une partie du code est manquante ! Êtes-vous capable de l'écrire ?
+```c
+#include <stdio.h>
+
+int main() {
+	printf("+");
+	for (int i = 0; i < 23; i++)
+		printf("-");
+	printf("+\n");
+
+	for (int i = 0; i < 3; i++)
+		printf("| o | X | o | X | o | X |");
+		printf("\n");
+		printf("| X | o | X | o | X | o |");
+		printf("\n");
+		printf("+");
+
+	for (int i = 0; i < 23; i++)
+		printf("-");
+	printf("+");
+	
+    return 0;
+}
+```			
+
+Le résultat que nous attendions est :
+```
++-----------------------+
+| o | X | o | X | o | X |
+| X | o | X | o | X | o |
+| o | X | o | X | o | X |
+| X | o | X | o | X | o |
+| o | X | o | X | o | X |
+| X | o | X | o | X | o |
++-----------------------+
+```
+**loop3.c**
+[code](./loop3.c)
+
+```c
+ #include <stdio.h>
+
+int main() {
+	printf("+");
+	for (int i = 0; i < 23; i++)
+		printf("-");
+	printf("+\n");
+
+	for (int i = 0; i < 3; i++)
+	{
+		printf("| o | X | o | X | o | X |");
+		printf("\n");
+		printf("| X | o | X | o | X | o |");
+		printf("\n");
+	}
+		printf("+");
+
+	for (int i = 0; i < 23; i++)
+		printf("-");
+	printf("+");
+	
+    return 0;
+}
+
+```
+
+
