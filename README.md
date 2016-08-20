@@ -18,7 +18,7 @@ Attention en tant que développeur C, vous allez devoir respecter certaines règ
 
 **afficher_text1.c**  
 [code](./afficher_text1.c)
-```javascript
+```c
  #include <stdio.h>
     int main() {
       printf ("A ce stade, je sais :\n- Afficher du texte\n- Sauter des lignes\n- Corriger des erreurs");
