@@ -75,7 +75,7 @@ Mais ce serait trop facile comme ça ! Vous n'avez droit ici qu'à un seul print
 
 Attention ! Vous devez respecter strictement ce qui est écrit au dessus ! 
 
-**afficher_text1.c**  
+**afficher_text2.c**  
 [code](./afficher_text2.c)
 ```c
  #include <stdio.h>
